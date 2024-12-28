@@ -1,0 +1,17 @@
+.container button{
+    width: 130px;
+    height: 50px;
+    background-color: #D73E4D;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: Raleway, sans-serif;
+    border: none;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+.container button:hover{
+    background-color: white;
+    color: #D73E4D;
+    border: 2px solid #D73E4D;
+}

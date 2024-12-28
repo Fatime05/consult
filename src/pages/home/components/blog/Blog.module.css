@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+.text h1{
+    font-family: Raleway, sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+.text p{
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+.context{
+
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    border: 2px solid red;
+    width: 30px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.item img{
+    width: 360px;
+    height: 228px;
+}
+.itemContainer{
+    display: flex;
+    gap: 20px;
+}
+.titl{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.titl h1{
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    transition: 0.3s;
+    
+}
+.titl h1:hover{
+    color: #d73e4d;
+}
+.titl h3{
+    font-family: Raleway, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #292929;
+}
+.titl p{
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #6f6f6f;
+}
+@media(max-width:1024px){
+    .container{
+        height: 50%;
+        margin-top: 50px;
+    }
+    
+    .itemContainer{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media(max-width:765px){
+    .text p{
+        width: 350px;
+    }
+    .itemContainer{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    
+}

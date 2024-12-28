@@ -1,0 +1,64 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black
+}
+.context{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+}
+.btn{
+    display: none;
+    color: white;
+    font-size: 20px;
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.heart{
+    color: red;
+    font-size: 19px;
+}
+.basket{
+    color: red;
+    font-size: 19px;
+}
+@media(max-width:1024px){
+    .btn{
+        display: block;
+
+    }
+    .navbar{
+        display: none;
+    }
+}
+
+
+
+
+
+
+.navbar ul li a{
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+.navbar ul li a:hover{
+    color: #d73e4d;
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
